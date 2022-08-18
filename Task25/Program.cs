@@ -13,8 +13,8 @@ Write($"Число а в натуральной степени числа b = {s
 
 int MyPow(int a, int n)
 {
-int myresult = 1;
-for (int i = 0; i<n; i++)
-myresult *= a;
-return myresult;
+    int myresult = 1;
+    for (int i = 0; i < n; i++)
+    myresult *= a;
+    return myresult;
 }
